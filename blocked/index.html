@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Page Blocked</title>
+		<link rel="stylesheet" href="assets/styles.css"/>
+	</head>
+	<body>
+        <div class="banner">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="banner-icon">
+				<path fill-rule="evenodd" d="M11.484 2.17a.75.75 0 011.032 0 11.209 11.209 0 007.877 3.08.75.75 0 01.722.515 12.74 12.74 0 01.635 3.985c0 5.942-4.064 10.933-9.563 12.348a.749.749 0 01-.374 0C6.314 20.683 2.25 15.692 2.25 9.75c0-1.39.223-2.73.635-3.985a.75.75 0 01.722-.516l.143.001c2.996 0 5.718-1.17 7.734-3.08zM12 8.25a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V9a.75.75 0 01.75-.75zM12 15a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75v-.008a.75.75 0 00-.75-.75H12z" clip-rule="evenodd" />
+			</svg>
+			<h1>Website Blocked</h1>
+        </div>
+		<div class="box">
+			<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" class="box-icon">
+				<rect fill="rgb(209 213 219)" width="8.6526175" height="10.540048" x="7.6510468" y="6.8072915"/>
+				<path fill="rgb(22 163 74)" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5l-9-4m0 6c1.4 0 2.8 1.1 2.8 2.5V11c.6 0 1.2.6 1.2 1.3v3.5c0 .6-.6 1.2-1.3 1.2H9.2c-.6 0-1.2-.6-1.2-1.3v-3.5c0-.6.6-1.2 1.2-1.2V9.5C9.2 8.1 10.6 7 12 7m0 1.2c-.8 0-1.5.5-1.5 1.3V11h3V9.5c0-.8-.7-1.3-1.5-1.3Z"/>
+			</svg>
+			<h2 class="box-title">This website has been blocked for your safety.</h2>
+			<p class="box-text">Your trying to reach a website that has been deemed unsafe by the network. If you believe this was a mistake please contact your network administrator.</p>
+			<button class="box-button" onclick="history.back()">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button-icon">
+					<polyline points="15 18 9 12 15 6"/>
+				</svg>
+				<span>Go Back</span>
+			</button>
+		</div>
+		<footer>
+			<div>
+				<span>Website: <span id="url"></span></span>
+				<span> | </span>
+				<span>Your IP: <span id="ip"></span></span>
+			</div>
+			<span>Copyright © <script>document.write(new Date().getFullYear().toString())</script> Liam L &lt;TheFallenSpirit&gt;</span>
+		</footer>
+	</body>
+	<script src="assets/index.js"></script>
+</html>

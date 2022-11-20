@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+/* Utility Classes */
+body {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 60rem;
+    color: rgb(209 213 219);
+    background-color: rgb(24 24 27);
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    margin-top: 1rem;
+    font-size: 3.75rem;
+    margin-bottom: 1rem;
+    color: rgb(229 231 235);
+}
+
+h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+button {
+    display: flex;
+    cursor: pointer;
+    border-style: none;
+    font-size: 1.125rem;
+    align-items: center;
+    padding: .75rem 2rem;
+    border-radius: .5rem;
+    color: rgb(209 213 219);
+    justify-content: center;
+}
+
+footer {
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(107 114 128);
+}
+
+/* Element Classes */
+.banner {
+    width: 100%;
+    display: flex;
+    margin-top: 4rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+    background-color: rgb(185 28 28);
+}
+
+.banner-icon {
+    width: 5rem;
+    height: 5rem;
+    display: none;
+    margin-right: 0.5rem;
+    fill: rgb(209 213 219);
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    flex-direction: column;
+    background-color: rgb(39 39 42);
+    border-bottom-left-radius: .75rem;
+    border-bottom-right-radius: .75rem;
+}
+
+.box-icon {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.box-title {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.box-text {
+    padding-left: 5rem;
+    font-size: 1.125rem;
+    padding-right: 5rem;
+}
+
+.box-button {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    background-color: rgb(21 128 61);
+}
+
+.button-icon {
+    fill: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke-width: 2;
+    margin-left: -.5rem;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: rgb(209 213 219);
+}
+
+/* Responsive Element Classes */
+@media (min-width: 640px) {
+    .banner-icon {
+        display: block;
+    }
+}
