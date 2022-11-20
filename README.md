@@ -1,2 +1,2 @@
 # FSNPages
-Various HTML pages for the FSN.
+Various HTML pages for my network.
